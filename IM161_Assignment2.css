@@ -1,0 +1,39 @@
+/* FONTS AND QUERIES */ 
+@font-face {
+	font-family: zeldaTitleType;
+	src: url(HyliaSerifBeta-Regular.otf);
+}
+
+@font-face {
+	font-family: zeldaBodyType;
+	src: url(FOTRodin Pro M.otf);
+}
+
+ /* HEADER */ 
+#Header{
+  border-style: solid;
+}
+
+#Title {
+	font-family: zeldaTitleType;
+	border-style: dotted;
+}
+
+#HeaderLinks{
+  
+}
+
+.link {
+  margin: auto;
+  padding: 10px;
+  font-size: 14px;
+  color: green;
+}
+a:hover{
+  color: red; 
+}
+
+/* PAGE 1 */ 
+.Page1 {
+	background-color: green;
+}
