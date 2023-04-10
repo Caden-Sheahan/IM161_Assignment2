@@ -1,30 +1,58 @@
 /* FONTS AND QUERIES */ 
 @font-face {
 	font-family: zeldaTitleType;
-	src: url(HyliaSerifBeta-Regular.otf);
+	src: url(./HyliaSerifBeta-Regular.otf);
 }
 
-@font-face {
-	font-family: zeldaBodyType;
-	src: url(FOTRodin Pro M.otf);
-}
+/* 
+					=== MAIN CSS ===
+ COLORS: #857310 - HeaderText, #b09813 - BodyText, 
+ MORE COLORS: #2b4531 - CourageBackground, #1a2b45 - WisdomBackground, #451a25 - PowerBackground  
+ EVEN MORE COLORS: #305438 - CourageDivs, #24306e - WisdomDivs, #6e242e - PowerDivs
+*/
 
-/* HEADER */
-/* COLORS: #857310 - HeaderText, #b09813 - BodyText, #2b4531 - Background, #305438 - HeaderContainer */
+/* BODY */
 body {
 	margin: 20px 50px 20px 50px;
-	background-color: #2b4531;
 	color: #857310;
 }
 
-#headerContainer{
-  border-style: solid;
-  background-color: #305438;
+.page1 {
+	background-color: #2b4531;
 }
 
+.page2 {
+	background-color: #1a2b45;
+}
+
+.page3 {
+	background-color: #451a25;
+}
+
+/* DIVS */
+#p1_content {
+	border-style: solid;
+	background-color: #305438;	
+}
+
+#p2_content {
+	border-style: solid;
+	background-color: #24306e;	
+}
+
+#p3_content {
+  border-style: solid;
+  background-color: #6e242e;
+}
+
+/* HEADER */
 #pageTitle{
 	font-family: zeldaTitleType;
 	border-style: dotted;
+}
+
+a {
+	color: #b09813;
 }
 
 #links > a {
@@ -32,7 +60,7 @@ body {
 	margin-right: 125px;
 	padding: 10px;
 	font-size: 24px;
-	color: #b09813;
+	font-family: zeldaTitleType;
 }
 
 #C_link:hover{
@@ -46,9 +74,35 @@ body {
 #P_link:hover{
   color: #ab354f; 
 }
-
-/* PAGE 1 */
+/* PAGE */
 #sectionTitle {
-	font-family: zeldaTitleType;
 	size: 32px;
+	padding-top: 10px; 
+	padding-left: 30px;
+	font-family: zeldaTitleType;
+}
+
+ol {
+	font-family: zeldaTitleType;
+	font-size: 24px;
+	color: #b09813;
+}
+
+li {
+	font-size: 20px;
+}
+
+img {
+	border-style: solid;
+}
+
+/* FOOTER */
+.footer {
+	color: #b09813;
+	justify-content: center;
+}
+p {
+	padding: 10px;
+	font-style: italic;
+	font-size: 20px;
 }
