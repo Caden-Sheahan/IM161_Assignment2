@@ -9,31 +9,46 @@
 	src: url(FOTRodin Pro M.otf);
 }
 
- /* HEADER */ 
-#Header{
-  border-style: solid;
+/* HEADER */
+/* COLORS: #857310 - HeaderText, #b09813 - BodyText, #2b4531 - Background, #305438 - HeaderContainer */
+body {
+	margin: 20px 50px 20px 50px;
+	background-color: #2b4531;
+	color: #857310;
 }
 
-#Title {
+#headerContainer{
+  border-style: solid;
+  background-color: #305438;
+}
+
+#pageTitle{
 	font-family: zeldaTitleType;
 	border-style: dotted;
 }
 
-#HeaderLinks{
-  
+#links > a {
+	margin-left: 125px;
+	margin-right: 125px;
+	padding: 10px;
+	font-size: 24px;
+	color: #b09813;
 }
 
-.link {
-  margin: auto;
-  padding: 10px;
-  font-size: 14px;
-  color: green;
-}
-a:hover{
-  color: red; 
+#C_link:hover{
+  color: #379e4f; 
 }
 
-/* PAGE 1 */ 
-.Page1 {
-	background-color: green;
+#W_link:hover{
+  color: #367eeb; 
+}
+
+#P_link:hover{
+  color: #ab354f; 
+}
+
+/* PAGE 1 */
+#sectionTitle {
+	font-family: zeldaTitleType;
+	size: 32px;
 }
